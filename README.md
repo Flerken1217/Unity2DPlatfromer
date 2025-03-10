@@ -4,10 +4,13 @@
 
 此处为按集记录学习的内容，方便自己复盘
 001 Introduction
-003 Unity Version Note
 004 Introduction To Unity
-005 Setting Up Project & Importing Assets 以上几集都为基础，跳过
-006 Adding Player 添加player，pixel per unit，spirit editor切分多个spirit
+005 Setting Up Project & Importing Assets
+以上几集都为基础，跳过。
+
+006 Adding Player
+添加player，pixel per unit，spirit editor切分多个spirit。
+
 007 Sorting Sprites with Layers
 008 Giving Player Physics
 009 Creating a Script
@@ -24,15 +27,30 @@
 020 Camera Control
 021 Adding Parallax for Depth
 022 Clamping Camera Vertically
-023 CHALLENGE - PARALLAXING VERTICALLY 移动远景和中景的y，主要的思路和相机移动x一致，只是把一维的float变成二维的vector
-024 Creating a Tile Palette 创建新level（new scene），tile map system
-025 Drawing a Level With Tilemaps 用tile map system绘制level；tilemap collider使地图拥有碰撞能力；composition collider让分散化为整体，设置为多边形免得玩家卡住；ridgidbody的bodytype为kinematic使其时空固定
-026 Moving Objects Between Levels With Prefabs 使用Prefabs，复用player、mainCamera和BG
-027 Adding Spikes 添加地形伤害，设置碰撞体，设置为触发器
-028 Creating a Health System 设置最大生命值、当前生命值，编写处理伤害函数（扣血and是否已无生命值），血已经扣完了就setActive(false)
-029 Detecting Spikes Hitting The Player 检测player与spike碰撞，采用重写unity函数方法
-030 Damaging The Player 将玩家health系统修改成单例，在spike的碰撞函数中将调试用的log方法改为调用health系统（单例）中的dealDamage。
-----2025.3.10更新到这里----
+023 CHALLENGE - PARALLAXING VERTICALLY
+移动远景和中景的y，主要的思路和相机移动x一致，只是把一维的float变成二维的vector。
+
+024 Creating a Tile Palette
+创建新level（new scene），tile map system。
+
+025 Drawing a Level With Tilemaps
+用tile map system绘制level；tilemap collider使地图拥有碰撞能力；composition collider让分散化为整体，设置为多边形免得玩家卡住；ridgidbody的bodytype为kinematic使其时空固定。
+
+026 Moving Objects Between Levels With Prefabs
+使用Prefabs，复用player、mainCamera和BG。
+
+027 Adding Spikes
+添加地形伤害，设置碰撞体，设置为触发器。
+
+028 Creating a Health System
+设置最大生命值、当前生命值，编写处理伤害函数（扣血and是否已无生命值），血已经扣完了就setActive(false)。
+
+029 Detecting Spikes Hitting The Player
+检测player与spike碰撞，采用重写unity函数方法。
+
+030 Damaging The Player
+将玩家health系统修改成单例，在spike的碰撞函数中将调试用的log方法改为调用health系统（单例）中的dealDamage。
+
 031 Setting Up Health UI
 032 Updating Health UI
 033 CHALLENGE - SHOWING HALF HEARTS
@@ -78,7 +96,7 @@
 073 Setting Up The Level Select Map
 074 Creating Map Points
 075 Moving Around Level Select Screen
-"076 Following The Players Movement"
+076 Following The Players Movement
 077 Loading Levels
 078 Adding Locked Levels
 079 Unlocking Levels
