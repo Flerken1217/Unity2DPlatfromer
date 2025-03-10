@@ -52,5 +52,7 @@ public class PlayerController : MonoBehaviour
         if(theRB.velocity.x<0)theSR.flipX=true;
         else if(theRB.velocity.x>0) theSR.flipX=false;
         //没有处理等于0的情况是因为0会有-0和+0两种，由上一个状态决定
+
+        
     }
 }
